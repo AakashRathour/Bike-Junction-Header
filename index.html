@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Junction </title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/csslib.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="headerMain">
+        <div class="headerMain-top">
+            <div class="container-mid">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/icons/TJ-Logo.svg" alt="TJ" />
+                    </a>
+                    <div class="mobileMenubarIcons">
+                        <a class="d-lg-none searchTractorsbtn" href="javascript:void(0);"><span><img
+                                    src="assets/images/icons/language.svg" /> English</span></a>
+                        <!-- <a class="d-lg-none webLangOptionMobile" id="langMobileBlockOpen"
+                            href="javascript:void(0);">En</a> -->
+                        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <img src="./assets/images/icons/mobile-hamger.svg" alt="humbger-icon" />
+                            <!-- <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span> -->
+                        </button>
+                    </div>
+
+                    <div class="nav-slider navbar-collapse">
+                        <div class="col-md-6 hearderTopSearch">
+                            <form action="" method="get">
+                                <div class="d-flex">
+                                    <input type="text" id="input-search" name="term" class="form-control"
+                                        placeholder="Try splendor , and passion etc" autocomplete="off">
+                                    <button type="submit" class="   "><img
+                                            src="assets/images/icons/search-svg.png" /></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                            <div class="row justify-content-center">
+                                <div class="col-3">
+                                    <img src="assets/images/icons/profile-1.svg" class="img-fluid" alt="" />
+                                </div>
+                                <div class="col-6">
+                                    <p class="boldfont mb-0 mt-3">Login/Register</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- <div class="mobileBlockMenu-bottom d-block d-sm-block d-md-block d-lg-none">
+                            <div class="row no-margin">
+                                <div class="col-6 no-padding">
+                                    <ul class="mb-0">
+                                        <li><a class="buytractormobile" href="#">Buy Old Truck</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 no-padding">
+                                    <ul class="mb-0">
+                                        <li><a class="selltractormobile" href="#">Sell Old Truck</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> -->
+                        <ul class="navbar-nav ml-auto mobileBlockMenuSecondNav">
+                            <li class="nav-item topRight">
+                                <a href="#" class="nav-link">
+                                    <img src="./assets/images/icons/language.svg" alt="language">
+                                    <span>English</span>
+                                </a>
+                            </li>
+                            <span class="divider"></span>
+                            <li class="nav-item topRightProfile"><a href="#" class="nav-link">
+                                    <img src="./assets/images/icons/profile-1.svg" alt="language">
+                                    <span>Sign In</span>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item dropdown dropdown-nav webLangOption">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+                                        class="webLangOptionSpan boldfont">EN</span></a>
+                                <div class="dropdown-menu dropdown-nav-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">हिन्दी</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-nav userOptionsTop">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="userOptions">GS</span></a>
+                                <div class="dropdown-menu dropdown-nav-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">Account</a>
+                                    <a class="dropdown-item" href="#">Logout</a>
+                                </div>
+                            </li>
+                            <li class="nav-item searchTractorsbtn">
+                                <a class="nav-link" href="javascript:void(0);">
+                                    <span class="boldfont">
+                                        <img src="assets/images/icons/location.svg" /> Location
+                                    </span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="nav-mask"></div>
+                </nav>
+            </div>
+        </div>
+        <div class="headerMain-bottom">
+            <div class="container-mid">
+                <div class="d-block d-sm-block d-md-block d-lg-none">
+                    <div class="mobilehearderTopSearch">
+                        <div class="col-12 m-auto ">
+                            <form action="" method="get">
+                                <div class="d-flex">
+                                    <input type="text" id="input-search" name="term" class="form-control"
+                                        placeholder="Try Splandor and Activa etc." autocomplete="off">
+                                    <button type="submit" class="fillBtn">
+                                        <img src="assets/images/icons/search-svg.png" />
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <nav class="navbar navbar-expand-lg" id="main_navbar">
+                    <div class="nav-slider navbar-collapse">
+                        <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                            <div class="row justify-content-start align-items-center">
+                                <div class="col-3">
+                                    <img src="assets/images/icons/profile-1.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <p class="boldfont">New User</p>
+                                    <h6 class="boldfont">Login/Register</h6>
+                                </div>
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="mobileBlockMenu-bottom d-block d-sm-block d-md-block d-lg-none">
+                            <div class="row no-margin">
+                                <div class="col-6 no-padding">
+                                    <ul class="mb-0">
+                                        <li><a class="buytractormobile" href="#">Buy Old Truck</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 no-padding">
+                                    <ul class="mb-0">
+                                        <li><a class="selltractormobile" href="#">Sell Old Truck</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Bikes
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Bikes</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    scooters
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>scooters</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Electric Bike
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Electric Bike</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Bike Loan
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Bike Loan</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Dealer
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Dealer</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Compare
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Compare</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    EMI Calculater
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>EMI Calculater</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bike-icon"><i class="fa fa-motorcycle"></i>
+                                    </span>
+                                    Get On-Road Price
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="mobileBlockMenu-top d-block d-sm-block d-md-block d-lg-none">
+                                        <div class="row justify-content-start align-items-center">
+                                            <div class="back-arrow">
+                                                <img src="./assets/images/icons/Left-arrow-1.png">
+                                                <b>Get On-Road Price</b>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <li><a class="dropdown-item" href="#">Popular bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">New bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcomming bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Best Mileage</a></li>
+                                    <li><a class="dropdown-item" href="#">Compare bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Bike Brands</a></li>
+                                    <li><a class="dropdown-item" href="#">Showroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Service Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <div
+                                        class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                                        <p class="boldfont mt-3">Follow us on Social Media</p>
+                                        <ul class="socialMedia mt-2">
+                                            <li><img src="assets/images/icons/facebook.svg" alt="facebook"></li>
+                                            <li><img src="assets/images/icons/twitter.svg" alt="twitter"></li>
+                                            <li><img src="assets/images/icons/instagram.svg" alt="instagram"></li>
+                                            <li><img src="assets/images/icons/youtube.svg" alt="youtube"></li>
+                                            <li><img src="assets/images/icons/linkedin.svg" alt="linkedin"></li>
+                                        </ul>
+                                    </div>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <div class="mobileBlockMenu-socialIcon text-center d-block d-sm-block d-md-block d-lg-none">
+                            <p class="boldfont mt-3">Follow us on Social Media</p>
+                            <ul class="socialMedia mt-2">
+                                <li><img src="assets/images/icons/facebook.svg" alt="facebook" /></li>
+                                <li><img src="assets/images/icons/twitter.svg" alt="twitter" /></li>
+                                <li><img src="assets/images/icons/instagram.svg" alt="instagram" /></li>
+                                <li><img src="assets/images/icons/youtube.svg" alt="youtube" /></li>
+                                <li><img src="assets/images/icons/linkedin.svg" alt="linkedin" /></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-mask"></div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <script src="assets/js/jslib.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("li.nav-item.dropdown").click(function () {
+                $("ul.dropdown-menu").addClass("mobileActive");
+            });
+
+            $(".back-arrow").click(function () {
+                $("ul.dropdown-menu").removeClass("mobileActive");
+            });
+
+
+
+        });
+    </script>
+</body>
+
+</html>

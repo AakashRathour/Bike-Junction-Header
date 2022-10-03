@@ -1,0 +1,20 @@
+$primaryclr: #27afa8;
+$lightblue: #d4e9fa;
+$secondaryclr: #333;
+$linkclr: #27afa8;
+$bodyclr: #212529;
+$lightfont: TJ-regular;
+$boldfont: TJ-bold;
+$premiumclr: #ffbf69;
+$offwhitetext: rgba(255, 255, 255, 0.8);
+@mixin oneline {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@mixin twoline {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
