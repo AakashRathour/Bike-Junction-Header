@@ -514,17 +514,24 @@
     <script src="assets/js/main.js"></script>
     <script>
         $(document).ready(function () {
-            $("li.nav-item.dropdown").click(function () {
-                $("ul.dropdown-menu").addClass("mobileActive");
+            //$("li.nav-item.dropdown.active").removeClass('active');
+            $("li.nav-item.dropdown .nav-link").click(function () {
+            if($(this).hasClass('active')){
+
+            }else{
+
+                $(this).closest('.dropdown').addClass('active');
+                $(this).closest('.dropdown').find('.dropdown-menu').addClass('mobileActive');
+            }
+
             });
-
-            $(".back-arrow").click(function () {
-                $("ul.dropdown-menu").removeClass("mobileActive");
+            $('.back-arrow').on('click',function(){
+                 $("li.nav-item.dropdown.active").removeClass('active');
+                 $(this).closest('.dropdown-menu').removeClass('mobileActive');
+                 //$(this).closest('.dropdown-menu').parents('.dropdown').removeClass('active');
             });
-
-
-
         });
+        
     </script>
 </body>
 
